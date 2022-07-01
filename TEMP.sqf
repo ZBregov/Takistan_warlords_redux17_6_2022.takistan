@@ -2,7 +2,7 @@ BIS_WL_initModule setVariable ["BIS_WL_combatantsPreset", 0];
 BIS_WL_initModule setVariable ["BIS_WL_faction_WEST", "BLU_F"];
 BIS_WL_initModule setVariable ["BIS_WL_faction_EAST", "OPF_F"];
 BIS_WL_initModule setVariable ["BIS_WL_faction_GUER", "IND_F"];
-BIS_WL_initModule setVariable ["BIS_WL_startCP", 50000]; // Correct place to change starting CP, defualt value 1000
+BIS_WL_initModule setVariable ["BIS_WL_startCP", 1000]; // Correct place to change starting CP, defualt value 1000
 BIS_WL_initModule setVariable ["BIS_WL_targetVotingDuration", 15];
 BIS_WL_initModule setVariable ["BIS_WL_allowAIVoting", FALSE];
 BIS_WL_initModule setVariable ["BIS_WL_announcerEnabled", TRUE];
@@ -14,8 +14,8 @@ BIS_WL_initModule setVariable ["BIS_WL_markersAlpha", 50];
 BIS_WL_initModule setVariable ["BIS_WL_requisitionPreset", "['A3ReduxAll']"];
 BIS_WL_initModule setVariable ["BIS_WL_scanCost", 350];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostOwned", 0];
-BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostContested", 50]; //Cost of fast travel to contested sector
-BIS_WL_initModule setVariable ["BIS_WL_fundsTransferCost", 5000];  //default 1000; Increased to 2000 to limits a CP exploit on official servers
+BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostContested", 250]; //Cost of fast travel to contested sector
+BIS_WL_initModule setVariable ["BIS_WL_fundsTransferCost", 2000];  //default 1000; Increased to 2000 to limits a CP exploit on official servers
 BIS_WL_initModule setVariable ["BIS_WL_targetResetCost", 500]; //default value 2000; lowered to 500 for official servers
 BIS_WL_initModule setVariable ["BIS_WL_scanEnabled", TRUE];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelEnabled", 1];

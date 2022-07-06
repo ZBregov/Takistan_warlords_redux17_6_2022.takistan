@@ -144,13 +144,13 @@ BIS_WL_factionVehicleClasses = [
 	[
 		
 		"CUP_I_Datsun_AA_TK",					250, //Pickup AA
-		"CUP_I_BRDM2_NAPA",					800, //BRDM APC
-		"CUP_I_MTLB_pk_NAPA",				1000,//HEAVY APC
-		"CUP_I_BRDM2_ATGM_NAPA",			1200, //Light apc w/atgm
-		"CUP_I_Hilux_armored_zu23_NAPA",	750,  //Hilux pickup armored zu23
-		"CUP_I_Hilux_btr60_NAPA",			250, //Hilux with btr gun
-		"CUP_I_Hilux_SPG9_NAPA",			125, //Hilux with SPG
-		"CUP_I_T34_NAPA",					2000 //Kuma, default 25
+		"CUP_I_BRDM2_TK_Gue",					800, //BRDM APC
+		"CUP_I_BMP1_TK_Gue",				1000,//HEAVY APC
+		"CUP_I_BRDM2_ATGM_TK_Gue",			1200, //Light apc w/atgm
+		"CUP_I_Hilux_armored_zu23_TK",	750,  //Hilux pickup armored zu23
+		"CUP_I_Hilux_btr60_TK",			250, //Hilux with btr gun
+		"CUP_I_Hilux_SPG9_TK",			125, //Hilux with SPG
+		"CUP_I_T55_TK_Gue",					2000 //Kuma, default 25
 	]
 ];
 
@@ -184,7 +184,7 @@ BIS_WL_factionAircraftClasses = [
 	],
 	[
 		"CUP_I_CESSNA_T41_ARMED_RACS",		4000, //Indy Cessna w/rockets
-		"CUP_I_UH1H_gunship_RACS", 			2500, //Huey w/rockets
+		"CUP_I_UH1H_gunship_TK_GUE", 			2500, //Huey w/rockets
 		"CUP_I_AH6J_RACS", 					2000 //Little bird w/rockets and guns
 		
 		

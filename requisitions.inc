@@ -62,12 +62,12 @@ class CfgWLRequisitionPresets
 				class CUP_B_AH6M_USA                		{cost = 2500;	requirements[]={};	};	// "AH-9 Pawnee"
 				class CUP_B_UH60M_US     					{cost = 2000;	requirements[]={};	};	// "UH-80 Ghost Hawk"
 				class CUP_B_MH47E_USA    					{cost = 1000;	requirements[]={};	};	// "CH-67 Huron"
-				class CUP_B_MH60L_DAP_4x_US			        {cost = 2500;	requirements[]={};	};	// "AH-99 Blackfoot"
+				class CUP_B_MH60L_DAP_4x_US			        {cost = 4500;	requirements[]={};	};	// "CH-67 Huron"
 				class CUP_B_MV22_USMC       				{cost = 1000;	requirements[]={};	};	// "V-44 X Blackfish(Inf)";
 				class CUP_B_MV22_VIV_USMC					{cost = 1000;	requirements[]={};	};	// "V-44 X Blackfish(Vic)";
 				class CUP_B_MV22_USMC_RAMPGUN				{cost = 2000;	requirements[]={};	};	// "V-44 X Blackfish (Armed)"
 				class CUP_B_CESSNA_T41_ARMED_USA			{cost = 3000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
-				class CUP_B_A10_DYN_USA             		{cost = 6000;	requirements[]={"A"};	};	// "A-164 Wipeout (CAS)"
+				class CUP_B_A10_DYN_USA             		{cost = 8500;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
 				class CUP_B_AH64D_DL_USA        			{cost = 10000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II Stealth";
 				
 			};
@@ -78,8 +78,8 @@ class CfgWLRequisitionPresets
 			class Gear
 			{
 				class CUP_BOX_USMC_WpsLaunch_F				{cost = 100;	requirements[]={};	};	// "Launchers [NATO]"
-				class CUP_BOX_US_ARMY_WpsLaunch_F			{cost = 100;	requirements[]={};	};	// "Launchers [NATO]"
-				class Box_NATO_AmmoVeh_F					{cost = 200;	requirements[]={};	};	// "Vehicle Ammo [NATO]"
+				class CUP_BOX_US_ARMY_WpsLaunch_F			{cost = 1500;	requirements[]={};	};	// "F/A-181 Black Wasp II";
+				class Box_NATO_AmmoVeh_F					{cost = 2000;	requirements[]={};	};	// "F/A-181 Black Wasp II";
 			};
 			class Defences
 			{
@@ -152,11 +152,11 @@ class CfgWLRequisitionPresets
 				class CUP_O_Mi6T_RU				            {cost = 400;	requirements[]={};	};	// "Mi-290 Taru"
 				class CUP_O_Mi6A_RU			                {cost = 400;	requirements[]={};	};	// "Mi-290 Taru (Transport)"
 				class CUP_O_Mi8_RU 		                    {cost = 900;	requirements[]={};	};	// "Mi-290 Taru (Medical)"
-				class CUP_O_Mi24_V_Dynamic_RU 	            {cost = 2500;	requirements[]={};	};	// "Mi-48 Kajman"
+				class CUP_O_Mi24_V_Dynamic_RU 	            {cost = 4500;	requirements[]={};	};	// "F/A-181 Black Wasp II";
 				class CUP_O_Ka52_RU             	        {cost = 9000;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
 				class CUP_O_Ka50_DL_RU             	        {cost = 9000;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
 				class CUP_O_Su25_Dyn_RU		                {cost = 6000;	requirements[]={"A"};	};	// "To-199 Neophron (CAS)"
-				class CUP_O_L39_TK					        {cost = 7000;	requirements[]={"A"};	};	// "To-201 Shikra"
+				class CUP_O_L39_TK					        {cost = 3900;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
 				
 			};
 			class Naval

@@ -28,14 +28,14 @@ class CfgWLRequisitionPresets
 			};
 			class Vehicles
 			{
-			    class CUP_B_M1030_USA                       {cost =  5;	    requirements[]={};	};	// "Quad Bike two wheels"
+			    class CUP_B_M1030_USA                       {cost =  5;	    requirements[]={};	};	// "Dirtbike"
 				class B_Quadbike_01_F						{cost =  20;	requirements[]={};	};	// "Quad Bike"
-				class CUP_B_M1152_USA      					{cost = 30;	requirements[]={};	};	// "Prowler (Unarmed)"
-				class CUP_B_nM1025_Unarmed_USA_DES			{cost = 50;	requirements[]={};	};	// "Hunter"
-				class CUP_B_MTVR_USA        				{cost = 50;	requirements[]={};	};	// "HEMTT Transport"
-				class CUP_B_MTVR_Refuel_USA		    		{cost = 100;	requirements[]={};	};	// "HEMTT Fuel"
-				class CUP_B_nM997_USA_DES					{cost = 50;	requirements[]={};	};	// "HEMTT Medical"
-				class CUP_B_nM1025_SOV_M2_USA_DES			{cost = 150;	requirements[]={};	};	// "Prowler (HMG)"
+				class CUP_B_M1152_USA      					{cost = 30;	requirements[]={};	};	// "hmwy (Unarmed)"
+				class CUP_B_nM1025_Unarmed_USA_DES			{cost = 50;	requirements[]={};	};	// "hmwy"
+				class CUP_B_MTVR_USA        				{cost = 50;	requirements[]={};	};	// "Transport"
+				class CUP_B_MTVR_Refuel_USA		    		{cost = 100;	requirements[]={};	};	// "Fuel"
+				class CUP_B_nM997_USA_DES					{cost = 50;	requirements[]={};	};	// "Medical"
+				class CUP_B_nM1025_SOV_M2_USA_DES			{cost = 150;	requirements[]={};	};	// "m2 hmwy open"
 				class CUP_B_HMMWV_Crows_M2_USA              {cost = 250;	requirements[]={};	};	// "HMWY (crow M2)"
 				class CUP_B_M1151_Deploy_USA                {cost = 200;	requirements[]={};	};	// "HMWY (HMG)"
 				class B_G_Offroad_01_armed_F				{cost = 100;	requirements[]={};	};	// "Offroad (HMG)"
@@ -53,9 +53,9 @@ class CfgWLRequisitionPresets
 				class CUP_B_nM1097_AVENGER_USA_DES          {cost = 800;	requirements[]={};	};	// "Avnger"
 				class CUP_B_M2A3Bradley_USA_D               {cost = 1000;	requirements[]={};	};	// "Bradley"
 				class CUP_B_M1A1SA_Desert_US_Army			{cost = 5000;	requirements[]={};	};	// "M2A1 Slammer"
-				class CUP_B_M1A2C_Desert_US_Army     	{cost = 7500;	requirements[]={};	};	// "M2A1 Slammer UP"
-				class CUP_B_M1129_MC_Mk19_Desert			{cost = 2500;	requirements[]={};	};	// "M4 Scorcher" 
-				class CUP_B_M270_HE_USA                     {cost = 20000;	requirements[]={};	};	// "M4 Scorcher"  
+				class CUP_B_M1A2C_Desert_US_Army     	    {cost = 7500;	requirements[]={};	};	// "M2A1 Slammer UP"
+				class CUP_B_M1129_MC_Mk19_Desert			{cost = 3500;	requirements[]={};	};	// "M4 Scorcher" 
+				class CUP_B_M270_HE_USA                     {cost = 16000;	requirements[]={};	};	// "M4 Scorcher"  
 				 
 			};
 			class Aircraft
@@ -143,7 +143,7 @@ class CfgWLRequisitionPresets
 				class CUP_O_Ural_ZU23_RU				    {cost = 500;	requirements[]={};	};	// "ZSU-39 Tigris"
 				class CUP_O_T72_RU						    {cost = 4000;	requirements[]={};	};	// "T-140 Angara"
 				class CUP_O_T90_RU					        {cost = 7000;	requirements[]={};	};	// "T-140K Angara"
-				class CUP_O_BM21_RU						    {cost = 20000;	requirements[]={};	};	// "2S9 Sochor"
+				class CUP_O_BM21_RU						    {cost = 16000;	requirements[]={};	};	// "2S9 Sochor"
 				
 
 			};
@@ -153,7 +153,7 @@ class CfgWLRequisitionPresets
 				class CUP_O_Ka60_Grey_RU		            {cost = 1000;	requirements[]={};	};	// "PO-30 Orca"
 				class CUP_O_Mi6T_RU				            {cost = 400;	requirements[]={};	};	// "Mi-290 Taru"
 				class CUP_O_Mi6A_RU			                {cost = 400;	requirements[]={};	};	// "Mi-290 Taru (Transport)"
-				class CUP_O_Mi8_RU 		                    {cost = 900;	requirements[]={};	};	// "Mi-290 Taru (Medical)"
+				class CUP_O_Mi8_RU 		                    {cost = 1300;	requirements[]={};	};	// "Mi-290 Taru (Medical)"
 				class CUP_O_Mi24_V_Dynamic_RU 	            {cost = 4500;	requirements[]={};	};	// "F/A-181 Black Wasp II";
 				class CUP_O_Ka52_RU             	        {cost = 9000;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
 				class CUP_O_Ka50_DL_RU             	        {cost = 9000;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"

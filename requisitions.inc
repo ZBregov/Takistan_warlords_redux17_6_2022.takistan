@@ -41,17 +41,19 @@ class CfgWLRequisitionPresets
 				class B_G_Offroad_01_armed_F				{cost = 100;	requirements[]={};	};	// "Offroad (HMG)"
 				class CUP_B_M1167_USA						{cost = 300;	requirements[]={};	};	// "Prowler (AT)"
 				class CUP_B_MTVR_Repair_USA					{cost = 800;	requirements[]={};	};	// "HEMTT Repair"
-				class CUP_B_MTVR_Ammo_USA				    {cost = 900;	requirements[]={};	};	// "HEMTT Ammo"
+				class CUP_B_MTVR_Ammo_USA				    {cost = 2000;	requirements[]={};	};	// "HEMTT Ammo"
 				class CUP_B_RG31_M2_GC_USA				    {cost = 500;	requirements[]={};	};	// "Hunter HMG"
 				class CUP_B_RG31_Mk19_USA				    {cost = 500;	requirements[]={};	};	// "Hunter GMG"
 				
 				class CUP_B_M1130_CV_M2_Desert				{cost = 700;	requirements[]={};	};	// "BLUFOR Gorgon"
 				class CUP_B_M1128_MGS_Desert				{cost = 1200;	requirements[]={};	};	// "AMV-7 Marshall"
 				class CUP_B_M1135_ATGMV_Desert				{cost = 900;	requirements[]={};	};	// "IFV-6c Panther"
-				class CUP_B_M7Bradley_USA_D					{cost = 800;	requirements[]={};	};	// "IFV-6a Cheetah"
+				class CUP_B_M6LineBacker_USA_D				{cost = 800;	requirements[]={};	};	// "Linebacker"
+				class CUP_B_M163_Vulcan_USA				    {cost = 800;	requirements[]={};	};	// "Vulcan"
+				class CUP_B_nM1097_AVENGER_USA_DES          {cost = 800;	requirements[]={};	};	// "Avnger"
 				class CUP_B_M2A3Bradley_USA_D               {cost = 1000;	requirements[]={};	};	// "Bradley"
 				class CUP_B_M1A1SA_Desert_US_Army			{cost = 5000;	requirements[]={};	};	// "M2A1 Slammer"
-				class CUP_B_M1A2C_TUSK_II_Desert_US_Army	{cost = 7500;	requirements[]={};	};	// "M2A1 Slammer UP"
+				class CUP_B_M1A2C_Desert_US_Army     	{cost = 7500;	requirements[]={};	};	// "M2A1 Slammer UP"
 				class CUP_B_M1129_MC_Mk19_Desert			{cost = 2500;	requirements[]={};	};	// "M4 Scorcher" 
 				class CUP_B_M270_HE_USA                     {cost = 20000;	requirements[]={};	};	// "M4 Scorcher"  
 				 
@@ -79,7 +81,7 @@ class CfgWLRequisitionPresets
 			{
 				class CUP_BOX_USMC_WpsLaunch_F				{cost = 100;	requirements[]={};	};	// "Launchers [NATO]"
 				class CUP_BOX_US_ARMY_WpsLaunch_F			{cost = 1500;	requirements[]={};	};	// "F/A-181 Black Wasp II";
-				class Box_NATO_AmmoVeh_F					{cost = 2000;	requirements[]={};	};	// "F/A-181 Black Wasp II";
+				class Box_NATO_AmmoVeh_F					{cost = 1000;	requirements[]={};	};	// "F/A-181 Black Wasp II";
 			};
 			class Defences
 			{
@@ -132,10 +134,10 @@ class CfgWLRequisitionPresets
 				class O_G_Offroad_01_armed_F				{cost = 100;	requirements[]={};	};	// "Offroad (HMG)"
 				class CUP_O_UAZ_METIS_RU			    	{cost = 200;	requirements[]={};	};	// "Qilin (AT)"
 				class CUP_O_Kamaz_Repair_RU				    {cost = 800;	requirements[]={};	};	// "Tempest Repair"
-				class CUP_O_Kamaz_Reammo_RU				    {cost = 900;	requirements[]={};	};	// "Tempest Ammo"
+				class CUP_O_Kamaz_Reammo_RU				    {cost = 2000;	requirements[]={};	};	// "Tempest Ammo"
 				class CUP_O_GAZ_Vodnik_BPPU_RU			    {cost = 700;	requirements[]={};	};	// "Ifrit HMG"
-				class CUP_O_BTR90_RU					    {cost = 700;	requirements[]={};	};	// "Ifrit GMG"
 				class CUP_O_BTR80A_DESERT_RU			    {cost = 800;	requirements[]={};	};	// "MSE-3 Marid"
+				class CUP_O_BTR90_RU					    {cost = 1000;	requirements[]={};	};	// "Ifrit GMG"
 				class CUP_O_BMP2_RU				            {cost = 1000;	requirements[]={};	};	// "BTR-K Kamysh"
 				class CUP_O_2S6M_RU					        {cost = 900;	requirements[]={};	};	// "ZSU-39 Tigris"
 				class CUP_O_Ural_ZU23_RU				    {cost = 500;	requirements[]={};	};	// "ZSU-39 Tigris"
@@ -166,7 +168,7 @@ class CfgWLRequisitionPresets
 			class Gear
 			{
 				class CUP_BOX_RU_WpsLaunch_F				{cost = 100;	requirements[]={};	};	// "Launchers [CSAT]"
-				class Box_East_AmmoVeh_F					{cost = 200;	requirements[]={};	};	// "Vehicle Ammo [CSAT]"
+				class Box_East_AmmoVeh_F					{cost = 1000;	requirements[]={};	};	// "Vehicle Ammo [CSAT]"
 			};
 			class Defences
 			{

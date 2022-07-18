@@ -1,6 +1,6 @@
 
 # Warlords Redux 2.3
-Warlords Redux 2.3 is a my upgrade project for the Redux Warlords Redux. 
+Warlords Redux Takistan is my upgrade project for the Redux Warlords Redux. 
 
 Original Warlords Redux by Bohemia Interactive and Jezuro can be found here:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1834482266&searchtext=Warlords+redux
@@ -11,7 +11,7 @@ Offical Arma 3 discord:  https://discord.gg/arma
 
 ## Warlords Redux 2.3 
 
-Warlords Redux Takistan project goal is to improve on WSV vision of warlords with bugfixes and more balanced user experience while staying compatable with no official servers for the best player count.
+Warlords Redux Takistan project goal is to improve on my vision of warlords with no bugfixes and more balanced user experience while staying compatable with no official servers for the best player count.
 
 Warlord Redux 2.3 discord: https://discord.gg/grmzsZE4ua
 

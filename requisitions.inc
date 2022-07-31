@@ -62,15 +62,15 @@ class CfgWLRequisitionPresets
 			{
 				class CUP_B_MH6J_OBS_USA					{cost = 500;	requirements[]={};	};	// "MH-9 Hummingbird"
 				class CUP_B_AH6M_USA                		{cost = 2500;	requirements[]={};	};	// "AH-9 Pawnee"
-				class CUP_B_UH60M_US     					{cost = 2000;	requirements[]={};	};	// "UH-80 Ghost Hawk"
-				class CUP_B_MH47E_USA    					{cost = 1000;	requirements[]={};	};	// "CH-67 Huron"
-				class CUP_B_MH60L_DAP_4x_US			        {cost = 4500;	requirements[]={};	};	// "CH-67 Huron"
+				class CUP_B_UH1D_gunship_GER_KSK_Des     	{cost = 1200;	requirements[]={};	};	// "UH-80 Ghost Hawk"
+				class CUP_B_CH47F_USA    					{cost = 1000;	requirements[]={};	};	// "CH-67 Huron"
 				class CUP_B_MV22_USMC       				{cost = 1000;	requirements[]={};	};	// "V-44 X Blackfish(Inf)";
 				class CUP_B_MV22_VIV_USMC					{cost = 1000;	requirements[]={};	};	// "V-44 X Blackfish(Vic)";
 				class CUP_B_MV22_USMC_RAMPGUN				{cost = 2000;	requirements[]={};	};	// "V-44 X Blackfish (Armed)"
+				class CUP_B_MH60L_DAP_4x_US			        {cost = 4500;	requirements[]={};	};	// "CH-67 Huron"
 				class CUP_B_CESSNA_T41_ARMED_USA			{cost = 3000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
+				class CUP_B_AH64D_DL_USA        			{cost = 8000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II Stealth";
 				class CUP_B_A10_DYN_USA             		{cost = 8500;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
-				class CUP_B_AH64D_DL_USA        			{cost = 10000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II Stealth";
 				
 			};
 			class Naval

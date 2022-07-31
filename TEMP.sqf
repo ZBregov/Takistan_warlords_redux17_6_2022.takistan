@@ -12,7 +12,7 @@ BIS_WL_initModule setVariable ["BIS_WL_fogOfWar", 1];
 BIS_WL_initModule setVariable ["BIS_WL_playersAlpha", 50];
 BIS_WL_initModule setVariable ["BIS_WL_markersAlpha", 50];
 BIS_WL_initModule setVariable ["BIS_WL_requisitionPreset", "['A3ReduxAll']"];
-BIS_WL_initModule setVariable ["BIS_WL_scanCost", 350];
+BIS_WL_initModule setVariable ["BIS_WL_scanCost", 750];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostOwned", 0];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostContested", 250]; //Cost of fast travel to contested sector
 BIS_WL_initModule setVariable ["BIS_WL_fundsTransferCost", 2000];  //default 1000; Increased to 2000 to limits a CP exploit on official servers
@@ -35,7 +35,7 @@ BIS_WL_initModule setVariable ["BIS_WL_scanCooldown", 90];
 BIS_WL_initModule setVariable ["BIS_WL_lastLoadoutCost", 100];
 BIS_WL_initModule setVariable ["BIS_WL_wreckRemovalTimeout", 30];
 BIS_WL_initModule setVariable ["BIS_WL_corpseRemovalTimeout", 300];
-BIS_WL_initModule setVariable ["BIS_WL_savedLoadoutCost", 500];
+BIS_WL_initModule setVariable ["BIS_WL_savedLoadoutCost", 350];
 BIS_WL_initModule setVariable ["BIS_WL_timeMultiplier", 6];
 BIS_WL_initModule setVariable ["BIS_WL_zoneRestrictionSetting", 0];
 BIS_WL_initModule setVariable ["BIS_WL_savingEnabled", FALSE];

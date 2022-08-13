@@ -1,5 +1,122 @@
 startLoadingScreen [""];
 
+commy_blacklist = ["H_HelmetO_ViperSP_ghex_F", "H_HelmetO_ViperSP_hex_F", "NVGogglesB_blk_F", "NVGogglesB_grn_F", "NVGogglesB_gry_F", "launch_O_Vorona_brown_F", "launch_O_Vorona_green_F", "CUP_launch_Metis"];
+commy_blacklist = commy_blacklist apply {toLower _x};
+
+[missionNamespace, "ArsenalClosed", {
+    private _unit = player;
+
+    getUnitLoadout _unit params [
+        "_gunInfo", "_launcherInfo", "_pistolInfo",
+        "_uniformInfo", "_vestInfo", "_backpackInfo",
+        "_helmet", "_glasses", "_binocluarInfo",
+        "_items"
+    ];
+
+    _gunInfo params ["_gun", "_gunMuzzle", "_gunPointer", "_gunOptic", "_gunMag", "_gunMag2", "_gunBipod"];
+    _launcherInfo params ["_launcher", "_launcherMuzzle", "_launcherPointer", "_launcherOptic", "_launcherMag", "_launcherMag2", "_launcherBipod"];
+    _pistolInfo params ["_pistol", "_pistolMuzzle", "_pistolPointer", "_pistolOptic", "_pistolMag", "_pistolMag2", "_pistolBipod"];
+    _binocluarInfo params ["_binocluar", "_binocluarMuzzle", "_binocluarPointer", "_binocluarOptic", "_binocluarMag", "_binocluarMag2", "_binocluarBipod"];
+
+    _uniformInfo params ["_uniform"];
+    _vestInfo params ["_vest"];
+    _backpackInfo params ["_backpack"];
+
+    if (toLower _gun in commy_blacklist) then {
+        _unit removeWeapon _gun;
+    };
+
+    if (toLower _gunMuzzle in commy_blacklist) then {
+        _unit removePrimaryWeaponItem _gunMuzzle;
+    };
+
+    if (toLower _gunPointer in commy_blacklist) then {
+        _unit removePrimaryWeaponItem _gunPointer;
+    };
+
+    if (toLower _gunOptic in commy_blacklist) then {
+        _unit removePrimaryWeaponItem _gunOptic;
+    };
+
+    if (toLower _gunBipod in commy_blacklist) then {
+        _unit removePrimaryWeaponItem _gunBipod;
+    };
+
+    if (toLower _launcher in commy_blacklist) then {
+        _unit removeWeapon _launcher;
+    };
+
+    if (toLower _launcherMuzzle in commy_blacklist) then {
+        _unit removeSecondaryWeaponItem _launcherMuzzle;
+    };
+
+    if (toLower _launcherPointer in commy_blacklist) then {
+        _unit removeSecondaryWeaponItem _launcherPointer;
+    };
+
+    if (toLower _launcherOptic in commy_blacklist) then {
+        _unit removeSecondaryWeaponItem _launcherOptic;
+    };
+
+    if (toLower _launcherBipod in commy_blacklist) then {
+        _unit removeSecondaryWeaponItem _launcherBipod;
+    };
+
+    if (toLower _pistol in commy_blacklist) then {
+        _unit removeWeapon _pistol;
+    };
+
+    if (toLower _pistolMuzzle in commy_blacklist) then {
+        _unit removeHandgunItem _pistolMuzzle;
+    };
+
+    if (toLower _pistolPointer in commy_blacklist) then {
+        _unit removeHandgunItem _pistolPointer;
+    };
+
+    if (toLower _pistolOptic in commy_blacklist) then {
+        _unit removeHandgunItem _pistolOptic;
+    };
+
+    if (toLower _pistolBipod in commy_blacklist) then {
+        _unit removeHandgunItem _pistolBipod;
+    };
+
+    if (toLower _uniform in commy_blacklist) then {
+        removeUniform _unit;
+    };
+
+    if (toLower _vest in commy_blacklist) then {
+        removeVest _unit;
+    };
+
+    if (toLower _backpack in commy_blacklist) then {
+        removeBackpack _unit;
+    };
+
+    if (toLower _helmet in commy_blacklist) then {
+        removeHeadgear _unit;
+    };
+
+    if (toLower _glasses in commy_blacklist) then {
+        removeGoggles _unit;
+    };
+
+    if (toLower _binocluar in commy_blacklist) then {
+        _unit removeWeapon _binocluar;
+    };
+
+    {
+        if (toLower _x in commy_blacklist) then {
+            _unit unlinkItem _x;
+        };
+    } forEach _items;
+
+    {
+        _unit removeItem _x;
+    } forEach items _unit;
+}] call BIS_fnc_addScriptedEventHandler;
+
 BIS_fnc_WL2_announcer = compile preprocessFileLineNumbers "Functions\client\WL2_announcer.sqf";
 BIS_fnc_WL2_assetMapControl = compile preprocessFileLineNumbers "Functions\client\WL2_assetMapControl.sqf";
 BIS_fnc_WL2_assetRelevanceCheck = compile preprocessFileLineNumbers "Functions\server\WL2_assetRelevanceCheck.sqf";

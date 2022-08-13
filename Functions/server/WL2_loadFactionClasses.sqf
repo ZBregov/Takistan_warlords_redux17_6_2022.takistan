@@ -24,62 +24,66 @@ _cfgVehicles = "getNumber (_x >> 'scope') == 2 && getNumber (_x >> 'isMan') == 1
 
 BIS_WL_factionUnitClasses = [
 	[
-		"CUP_B_USMC_Soldier",				5, //rifleman, default 100
-		"CUP_B_USMC_Soldier_GL",			70, //Grenadir, default 80
-		"CUP_B_USMC_Soldier_AR",			40, //Autorifleman, default 70
-		"CUP_B_USMC_SpecOps_SD",			15, //Asst Autorifleman, default 70
-		"CUP_B_USMC_Soldier",				5, //Team leader. default 30
-		"CUP_B_USMC_Sniper_M40A3",			30, //Marksman, default 20
-		"CUP_B_USMC_Soldier_AT",			10, //PCML, default 20
-		"CUP_B_BAF_Soldier_Paratrooper_DPM",50, // MAAWS , default 20
-		"CUP_B_USMC_Crew",					5, //Ammo, default 20
-		"CUP_B_USMC_Pilot",					15, //Squad leader, default 15
-		"CUP_B_USMC_Medic",					15, //Medic, default 15
-		"CUP_B_USMC_Engineer",				5, //Repair, default 15
-		"CUP_B_USMC_Soldier_HAT",			25, //Titan AT, default 15
-		"CUP_B_USMC_Soldier_AA",			25, //Titan AA, default 15
-		"CUP_B_USMC_Soldier_MG",			10, //Asst AT, default 15
-		"CUP_B_USMC_Soldier_AT",			5, //Asst AA, default 15
-		"CUP_B_USMC_Soldier_Marksman",		15, //762x51, default 15
-		"CUP_B_USMC_Soldier_AR",			15, //338, default 15
-		"CUP_B_USMC_Sniper_M40A3",			5 //sniper, default 10
+		"CUP_B_US_Soldier_Backpack_OCP",		5, //rifleman, default 100
+		"CUP_B_US_Soldier_GL_OCP",			    70, //Grenadir, default 80
+		"CUP_B_US_Soldier_AR_OCP",			    40, //Autorifleman, default 70
+		"CUP_B_US_Soldier_AAR_OCP",			    15, //Asst Autorifleman, default 70
+		"CUP_B_US_Soldier_TL_OCP",				5, //Team leader. default 30
+		"CUP_B_US_Soldier_Marksman_OCP",	    30, //Marksman, default 20
+		"CUP_B_US_Soldier_AT_OCP",			    10, //PCML, default 20
+		"CUP_B_US_Soldier_LAT_OCP",              50, // MAAWS , default 20
+		"CUP_B_USMC_Crew",					    5, //Ammo, default 20
+		"CUP_B_US_Soldier_SL_OCP",				15, //Squad leader, default 15
+		"CUP_B_US_Medic_OCP",					15, //Medic, default 15
+		"CUP_B_US_Soldier_Engineer_OCP",		5, //Repair, default 15
+		"CUP_B_US_Soldier_HAT_OCP",			    25, //Titan AT, default 15
+		"CUP_B_US_Soldier_AA_OCP",			    25, //Titan AA, default 15
+		"CUP_B_US_Soldier_AHAT_OCP",			10, //Asst AT, default 15
+		"CUP_B_US_Soldier_AAT_OCP",			    5, //Asst AA, default 15
+		"CUP_B_US_Soldier_Marksman_EBR_OCP",	15, //762x51, default 15
+		"CUP_B_US_Sniper_M110_TWS_OCP",			15, //338, default 15
+		"CUP_B_US_Sniper_M107_OCP",			    5 //sniper, default 10
 	],
 	[
-		"CUP_O_RU_Soldier_EMR",				5, //rifleman, default 100
-		"CUP_O_RU_Soldier_GL",				70, //Grenadir, default 80
-		"CUP_O_RU_Soldier_AR",				40, //Autorifleman, default 70
-		"CUP_O_RUS_SpecOps_SD_Autumn",		15, //Asst Autorifleman, default 70
-		"CUP_O_RU_Crew",					5, //officer, default 10
-		"CUP_O_RU_Soldier_LAT",				50, //RPG32, default 20
-		"CUP_O_RU_Soldier_AT",				5, //Asst AT, default 15
-		"CUP_O_RU_Soldier_MG",				15, //93x64, default 15
-		"CUP_O_RU_Soldier_HAT",				25, //Titan AT, default 15
-		"CUP_O_RU_Soldier_AA",				25, //Titan AA, default 15
-		"CUP_O_RU_Engineer",				5, //engineer, default 15
-		"CUP_O_RU_Medic",					15, //Medic, default 15
-		"CUP_O_RU_Sniper_KSVK",				50, //Repair, default 15
-		"CUP_O_RU_Pilot",					5, //APERS, default 10
-		"CUP_O_RU_Spotter",					5, //spotter, default 10
-		"CUP_O_RU_Sniper",					50 //sniper, default 10
+		"CUP_O_RU_Soldier_Ratnik_BeigeDigital",			 5, //rifleman, default 100
+		"CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital",		 70, //Grenadir, default 80
+		"CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital",		 40, //Autorifleman, default 70
+		"CUP_O_RU_Soldier_AAR_Ratnik_BeigeDigital",		 15, //Asst Autorifleman, default 70
+		"CUP_O_RU_Soldier_TL_Ratnik_BeigeDigital",		 5, //Team leader, default 10
+		"CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital", 30, //Marksman, default 20
+		"CUP_O_RU_Soldier_AT_Ratnik_BeigeDigital",		 50, //RPG, default 20
+		"CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital",      50, // MAAWS , default 20
+		"CUP_O_RU_Soldier_AHAT_Ratnik_BeigeDigital",	 10, //Asst AT, default 15
+		"CUP_O_RU_Soldier_SL_Ratnik_BeigeDigital",       15, //Squad leader, default 15
+		"CUP_O_RU_Recon_Marksman_Ratnik_BeigeDigital",	 15, //93x64, default 15
+		"CUP_O_RU_Soldier_HAT_Ratnik_BeigeDigital",		 25, //Titan AT, default 15
+		"CUP_O_RU_Soldier_AA_Ratnik_BeigeDigital",		 25, //Titan AA, default 15
+		"CUP_O_RU_Soldier_AHAT_Ratnik_BeigeDigital",     10, //Asst AT, default 15
+		"CUP_O_RU_Soldier_AAT_Ratnik_BeigeDigital",      5, //Asst AA, default 15
+		"CUP_O_RU_Soldier_Medic_Ratnik_BeigeDigital",	 15, //Medic, default 15
+		"CUP_O_RU_Soldier_Repair_Ratnik_BeigeDigital",	 5, //Repair, default 15
+		"CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital", 15, //APERS, default 10
+		"CUP_O_RU_Sniper_M_EMR",	                     15, //spotter, default 10
+		"CUP_O_RU_Sniper_KSVK_M_EMR",					 50 //sniper, default 10
 	],
 	[
-		"CUP_I_TK_GUE_Soldier",			    5, //rifleman, default 100
-		"CUP_I_TK_GUE_Soldier_GL",				15, //Grenadir, default 80
-		"CUP_I_TK_GUE_Soldier_MG",				50, //Autorifleman, default 70
-		"CUP_I_TK_GUE_Soldier_AR",				25, //Asst Autorifleman, default 70
-		"CUP_I_GUE_Officer",				60, //Team leader. default 30
-		"CUP_I_GUE_Ammobearer",				5, //Ammo, default 20
-		"CUP_I_GUE_Soldier_Scout",			30, //Marksman, default 20
-		"CUP_I_TK_GUE_Soldier_LAT",			40, //PCML, default 20
-		"CUP_I_TK_GUE_Soldier_AT",				60, //MAAWS? , deault 20
-		"CUP_I_TK_GUE_Soldier_AA",			50, //Squad leader, default 15
-		"CUP_I_TK_GUE_Soldier_AAT",				50, //Asst AT, default 15
-		"CUP_I_TK_GUE_Guerilla_Medic",			20, //Medic, default 15
-		"CUP_I_TK_GUE_Mechanic",				15, //engineer, default 15
-		"CUP_I_TK_GUE_Demo",				15, //APERS, default 10
-		"CUP_I_TK_GUE_Commander",				80, //officer, default 10
-		"CUP_I_GUE_Soldier_Scout",			20, //spotter, default 10
-		"CUP_I_TK_GUE_Sniper",					30 //sniper, default 10
+		"CUP_I_TK_GUE_Soldier",			5, //rifleman, default 100
+		"CUP_I_TK_GUE_Soldier_GL",		15, //Grenadir, default 80
+		"CUP_I_TK_GUE_Soldier_MG",		50, //Autorifleman, default 70
+		"CUP_I_TK_GUE_Soldier_AR",		25, //Asst Autorifleman, default 70
+		"CUP_I_GUE_Officer",			60, //Team leader. default 30
+		"CUP_I_GUE_Ammobearer",			5, //Ammo, default 20
+		"CUP_I_GUE_Soldier_Scout",		30, //Marksman, default 20
+		"CUP_I_TK_GUE_Soldier_LAT",		40, //PCML, default 20
+		"CUP_I_TK_GUE_Soldier_AT",		60, //MAAWS? , deault 20
+		"CUP_I_TK_GUE_Soldier_AA",		50, //Squad leader, default 15
+		"CUP_I_TK_GUE_Soldier_AAT",		50, //Asst AT, default 15
+		"CUP_I_TK_GUE_Guerilla_Medic",	20, //Medic, default 15
+		"CUP_I_TK_GUE_Mechanic",		15, //engineer, default 15
+		"CUP_I_TK_GUE_Demo",			15, //APERS, default 10
+		"CUP_I_TK_GUE_Commander",		80, //officer, default 10
+		"CUP_I_GUE_Soldier_Scout",		20, //spotter, default 10
+		"CUP_I_TK_GUE_Sniper",			30 //sniper, default 10
 	]
 ];
 
@@ -143,14 +147,14 @@ BIS_WL_factionVehicleClasses = [
 	],
 	[
 		
-		"CUP_I_Datsun_AA_TK",					250, //Pickup AA
-		"CUP_I_BRDM2_TK_Gue",					800, //BRDM APC
-		"CUP_I_BMP1_TK_Gue",				1000,//HEAVY APC
-		"CUP_I_BRDM2_ATGM_TK_Gue",			1200, //Light apc w/atgm
+		"CUP_I_Datsun_AA_TK",			250, //Pickup AA
+		"CUP_I_BRDM2_TK_Gue",			800, //BRDM APC
+		"CUP_I_BMP1_TK_Gue",			1000,//HEAVY APC
+		"CUP_I_BRDM2_ATGM_TK_Gue",		1200, //Light apc w/atgm
 		"CUP_I_Hilux_armored_zu23_TK",	750,  //Hilux pickup armored zu23
 		"CUP_I_Hilux_btr60_TK",			250, //Hilux with btr gun
 		"CUP_I_Hilux_SPG9_TK",			125, //Hilux with SPG
-		"CUP_I_T55_TK_Gue",					2000 //Kuma, default 25
+		"CUP_I_T55_TK_Gue",				2000 //Kuma, default 25
 	]
 ];
 
@@ -184,7 +188,7 @@ BIS_WL_factionAircraftClasses = [
 	],
 	[
 		"CUP_I_CESSNA_T41_ARMED_RACS",		4000, //Indy Cessna w/rockets
-		"CUP_I_UH1H_gunship_TK_GUE", 			2500, //Huey w/rockets
+		"CUP_I_UH1H_gunship_TK_GUE", 		2500, //Huey w/rockets
 		"CUP_I_AH6J_RACS", 					2000 //Little bird w/rockets and guns
 		
 		

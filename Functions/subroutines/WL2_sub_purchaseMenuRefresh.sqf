@@ -128,12 +128,24 @@ if (count _assetDetails > 0) then {
 		_curSel = lbCurSel _purchase_queue;
 		_size = lbSize _purchase_queue;
 		if (_curSel == -1 || _curSel >= _size) then {_purchase_queue lbSetCurSel (_size - 1)};
-		if (_funds >= BIS_WL_dropCost && ctrlEnabled _purchase_request) then {
-			uiNamespace setVariable ["BIS_WL_purchaseMenuDropSectorAffordable", TRUE];
-			if !(uiNamespace getVariable ["BIS_WL_purchaseMenuButtonDropSectorHover", FALSE]) then {
-				_purchase_drop_sector ctrlSetBackgroundColor _color;
-				_purchase_drop_sector ctrlSetTextColor [1, 1, 1, 1];
-			};
+		_visitedSectorID = (BIS_WL_sectorsArray # 0) findIf {player inArea (_x getVariable "objectAreaComplete")};
+		_g = -1;
+        if (_funds >= BIS_WL_dropCost && ctrlEnabled _purchase_request && !(_visitedSectorID == -1)) then {
+			if (BIS_WL_vehsInBasket == ({(_x # 0) isKindOf "Thing"} count BIS_WL_dropPool)) then { //checks if vehicles are queued
+				uiNamespace setVariable ["BIS_WL_purchaseMenuDropSectorAffordable", FALSE];
+			    _purchase_drop_sector ctrlSetBackgroundColor [(_color # 0) * 0.5, (_color # 1) * 0.5, (_color # 2) * 0.5, _color # 3];// layout
+			    _purchase_drop_sector ctrlSetTextColor [0.5, 0.5, 0.5, 1];
+			} else {
+				uiNamespace setVariable ["BIS_WL_purchaseMenuDropSectorAffordable", TRUE]; // layout lines
+			    if !(uiNamespace getVariable ["BIS_WL_purchaseMenuButtonDropSectorHover", FALSE]) then {
+			        _purchase_drop_sector ctrlSetBackgroundColor _color;
+			        _purchase_drop_sector ctrlSetTextColor [1, 1, 1, 1];
+
+			    }else {
+			    _purchase_drop_sector ctrlSetBackgroundColor [(_color # 0) * 0.5, (_color # 1) * 0.5, (_color # 2) * 0.5, _color # 3];
+			    _purchase_drop_sector ctrlSetTextColor [0.5, 0.5, 0.5, 1];
+			    };
+			};			
 		} else {
 			uiNamespace setVariable ["BIS_WL_purchaseMenuDropSectorAffordable", FALSE];
 			_purchase_drop_sector ctrlSetBackgroundColor [(_color # 0) * 0.5, (_color # 1) * 0.5, (_color # 2) * 0.5, _color # 3];

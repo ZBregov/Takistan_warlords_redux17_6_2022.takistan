@@ -1,4 +1,4 @@
-BIS_WL_initModule setVariable ["BIS_WL_combatantsPreset", 0];
+BIS_WL_initModule setVariable ["BIS_WL_combatantsPreset", 0]; //EDITED
 BIS_WL_initModule setVariable ["BIS_WL_faction_WEST", "BLU_F"];
 BIS_WL_initModule setVariable ["BIS_WL_faction_EAST", "OPF_F"];
 BIS_WL_initModule setVariable ["BIS_WL_faction_GUER", "IND_F"];
@@ -14,21 +14,21 @@ BIS_WL_initModule setVariable ["BIS_WL_markersAlpha", 50];
 BIS_WL_initModule setVariable ["BIS_WL_requisitionPreset", "['A3ReduxAll']"];
 BIS_WL_initModule setVariable ["BIS_WL_scanCost", 750];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostOwned", 0];
-BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostContested", 250]; //Cost of fast travel to contested sector
-BIS_WL_initModule setVariable ["BIS_WL_fundsTransferCost", 2000];  //default 1000; Increased to 2000 to limits a CP exploit on official servers
+BIS_WL_initModule setVariable ["BIS_WL_fastTravelCostContested", 850]; //Cost of fast travel to contested sector
+BIS_WL_initModule setVariable ["BIS_WL_fundsTransferCost", 1350];  //default 1000; Increased to 2000 to limits a CP exploit on official servers
 BIS_WL_initModule setVariable ["BIS_WL_targetResetCost", 500]; //default value 2000; lowered to 500 for official servers
 BIS_WL_initModule setVariable ["BIS_WL_scanEnabled", TRUE];
 BIS_WL_initModule setVariable ["BIS_WL_fastTravelEnabled", 1];
-BIS_WL_initModule setVariable ["BIS_WL_maxCP", 50000];
+BIS_WL_initModule setVariable ["BIS_WL_maxCP", 70000];
 BIS_WL_initModule setVariable ["BIS_WL_dropCost", 25];
-BIS_WL_initModule setVariable ["BIS_WL_dropCost_far", 1000];
+BIS_WL_initModule setVariable ["BIS_WL_dropCost_far", 2050];
 BIS_WL_initModule setVariable ["BIS_WL_autonomous_limit", 2];
 BIS_WL_initModule setVariable ["BIS_WL_arsenalEnabled", TRUE];
 BIS_WL_initModule setVariable ["BIS_WL_arsenalCost", 1000];
 BIS_WL_initModule setVariable ["BIS_WL_maxSubordinates", 20]; //default value 8
-BIS_WL_initModule setVariable ["BIS_WL_assetLimit", 10];
+BIS_WL_initModule setVariable ["BIS_WL_assetLimit", 20];
 BIS_WL_initModule setVariable ["BIS_WL_targetResetTimeout", 300];
-BIS_WL_initModule setVariable ["BIS_WL_baseValue", 50]; //this changes money from main base ie starter CP/Min, default value 10
+BIS_WL_initModule setVariable ["BIS_WL_baseValue", 25]; //this changes money from main base ie starter CP/Min, default value 10
 BIS_WL_initModule setVariable ["BIS_WL_baseDistanceMin", 18]; //default value 5; Use _tolerance value in combo with baseDistanceMin to add randomness to base distances
 BIS_WL_initModule setVariable ["BIS_WL_baseDistanceMax", -1]; //default value -1 
 BIS_WL_initModule setVariable ["BIS_WL_scanCooldown", 200];

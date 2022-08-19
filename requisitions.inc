@@ -1,4 +1,4 @@
-class CfgWLRequisitionPresets //EDITED BY COFFEE
+class CfgWLRequisitionPresets //EDITED
 {
 	class A3ReduxAll
 	{
@@ -6,44 +6,37 @@ class CfgWLRequisitionPresets //EDITED BY COFFEE
 		{
 			class Infantry
 			{
-				class CUP_B_US_Soldier_OCP 					{cost = 5;		requirements[]={};	};	// "Rifleman"
-				class CUP_B_BAF_Soldier_Paratrooper_DDPM	{cost = 10;		requirements[]={};	};	// "Para Trooper"
-				class CUP_B_USMC_SpecOps_des				{cost = 15;		requirements[]={};	};	// "CTRG Scout"
-				class CUP_B_US_Crew_OCP						{cost = 5;		requirements[]={};	};	// "Crewman"
-				class CUP_B_BAF_Soldier_Helipilot_DDPM 		{cost = 10;		requirements[]={};	};	// "Helicopter Pilot"
-				class CUP_B_USMC_Pilot_des 					{cost = 10;		requirements[]={};	};	// "Pilot"
-				class CUP_B_US_Soldier_GL_OCP 				{cost = 25;		requirements[]={};	};	// "Grenadier"
+				class CUP_B_US_Soldier_OCP 					{cost = 50;		requirements[]={};	};	// "Rifleman"
+				class CUP_B_BAF_Soldier_Paratrooper_DDPM	{cost = 50;		requirements[]={};	};	// "Para Trooper"
+				class CUP_B_USMC_SpecOps_des				{cost = 75;		requirements[]={};	};	// "CTRG Scout"
+				class CUP_B_US_Crew_OCP						{cost = 50;		requirements[]={};	};	// "Crewman"
+				class CUP_B_BAF_Soldier_Helipilot_DDPM 		{cost = 50;		requirements[]={};	};	// "Helicopter Pilot"
+				class CUP_B_USMC_Pilot_des 					{cost = 50;		requirements[]={};	};	// "Pilot"
+				class CUP_B_US_Soldier_GL_OCP 				{cost = 55;		requirements[]={};	};	// "Grenadier"
 				
-				class CUP_B_US_Medic_OCP					{cost = 10;		requirements[]={};	};	// "Combat Life Saver"
-				class CUP_B_US_Soldier_AR_OCP				{cost = 25;		requirements[]={};	};	// "Autorifleman"
-				class CUP_B_US_Soldier_Marksman_OCP			{cost = 30;		requirements[]={};	};	// "Marksman"
-				class CUP_B_US_Soldier_Engineer_OCP			{cost = 50;	requirements[]={};	};	// "Repair Specialist"
-				class CUP_B_FR_Soldier_AR_DES				{cost = 40;		requirements[]={};	};	// "Heavy Gunner"
-				class CUP_B_US_Soldier_LAT_OCP			    {cost = 50;	requirements[]={};	};	// "Rifleman (AT)"
-				class CUP_B_US_Soldier_AT_OCP				{cost = 50;	requirements[]={};	};	// "Rifleman (Light AT)"
-				class CUP_B_US_Soldier_HAT_OCP				{cost = 75;	requirements[]={};	};	// "Missile Specialist (AT)"
-				class CUP_B_US_Soldier_AA_OCP				{cost = 75;	requirements[]={};	};	// "Missile Specialist (AA)"
-				class CUP_B_US_Soldier_Marksman_EBR_OCP		{cost = 40;		requirements[]={};	};	// "Sharpshooter"
-				class CUP_B_US_Sniper_M107_OCP				{cost = 50;	requirements[]={};	};	// "Sniper"
+				class CUP_B_US_Medic_OCP					{cost = 50;		requirements[]={};	};	// "Combat Life Saver"
+				class CUP_B_US_Soldier_AR_OCP				{cost = 55;		requirements[]={};	};	// "Autorifleman"
+				class CUP_B_US_Soldier_Marksman_OCP			{cost = 60;		requirements[]={};	};	// "Marksman"
+				class CUP_B_US_Soldier_Engineer_OCP			{cost = 350;	requirements[]={};	};	// "Repair Specialist"
+				class CUP_B_FR_Soldier_AR_DES				{cost = 50;		requirements[]={};	};	// "Heavy Gunner"
+				class CUP_B_US_Soldier_Marksman_EBR_OCP		{cost = 75;		requirements[]={};	};	// "Sharpshooter"
+				class CUP_B_US_Sniper_M107_OCP				{cost = 75;	requirements[]={};	};	// "Sniper"
 			};
 			class Vehicles
 			{
-			    class CUP_B_M1030_USA                       {cost =  5;	    requirements[]={};	};	// "Dirtbike"
-				class B_Quadbike_01_F						{cost =  20;	requirements[]={};	};	// "Quad Bike"
-				class CUP_B_M1152_USA      					{cost = 30;	requirements[]={};	};	// "hmwy (Unarmed)"
-				class CUP_B_nM1025_Unarmed_USA_DES			{cost = 50;	requirements[]={};	};	// "hmwy"
-				class CUP_B_MTVR_USA        				{cost = 50;	requirements[]={};	};	// "Transport"
+				class B_Quadbike_01_F						{cost =  200;	requirements[]={};	};	// "Quad Bike"
+				class CUP_B_nM1025_Unarmed_USA_DES			{cost = 500;	requirements[]={};	};	// "hmwy"
+				class CUP_B_MTVR_USA        				{cost = 500;	requirements[]={};	};	// "Transport"
 				class CUP_B_MTVR_Refuel_USA		    		{cost = 1000;	requirements[]={};	};	// "Fuel"
-				class CUP_B_nM997_USA_DES					{cost = 50;	requirements[]={};	};	// "Medical"
-				class CUP_B_nM1025_SOV_M2_USA_DES			{cost = 450;	requirements[]={};	};	// "m2 hmwy open"
-				class CUP_B_HMMWV_Crows_M2_USA              {cost = 850;	requirements[]={};	};	// "HMWY (crow M2)"
+				class CUP_B_nM1025_SOV_M2_USA_DES			{cost = 850;	requirements[]={};	};	// "m2 hmwy open"
+				class CUP_B_HMMWV_Crows_M2_USA              {cost = 950;	requirements[]={};	};	// "HMWY (crow M2)"
 				class CUP_B_M1151_Deploy_USA                {cost = 800;	requirements[]={};	};	// "HMWY (HMG)"
-				class B_G_Offroad_01_armed_F				{cost = 200;	requirements[]={};	};	// "Offroad (HMG)"
+				class B_G_Offroad_01_armed_F				{cost = 500;	requirements[]={};	};	// "Offroad (HMG)"
 				class CUP_B_M1167_USA						{cost = 2500;	requirements[]={};	};	// "Prowler (AT)"
 				class CUP_B_MTVR_Repair_USA					{cost = 1800;	requirements[]={};	};	// "HEMTT Repair"
 				class CUP_B_MTVR_Ammo_USA				    {cost = 2000;	requirements[]={};	};	// "HEMTT Ammo"
-				class CUP_B_RG31_M2_GC_USA				    {cost = 800;	requirements[]={};	};	// "Hunter HMG"
-				class CUP_B_RG31_Mk19_USA				    {cost = 900;	requirements[]={};	};	// "Hunter GMG"
+				class CUP_B_RG31_M2_GC_USA				    {cost = 1500;	requirements[]={};	};	// "Hunter HMG"
+				class CUP_B_RG31_Mk19_USA				    {cost = 1650;	requirements[]={};	};	// "Hunter GMG"
 				
 				class CUP_B_M1130_CV_M2_Desert				{cost = 1300;	requirements[]={};	};	// "BLUFOR Gorgon"
 				class CUP_B_M1128_MGS_Desert				{cost = 4200;	requirements[]={};	};	// "AMV-7 Marshall"
@@ -51,20 +44,19 @@ class CfgWLRequisitionPresets //EDITED BY COFFEE
 				class CUP_B_M6LineBacker_USA_D				{cost = 4200;	requirements[]={};	};	// "Linebacker"
 				class CUP_B_M163_Vulcan_USA				    {cost = 3500;	requirements[]={};	};	// "Vulcan"
 				class CUP_B_nM1097_AVENGER_USA_DES          {cost = 3500;	requirements[]={};	};	// "Avnger"
-				class CUP_B_M2A3Bradley_USA_D               {cost = 3500;	requirements[]={};	};	// "Bradley"
-				class CUP_B_M1A1SA_Desert_US_Army			{cost = 5000;	requirements[]={};	};	// "M2A1 Slammer"
+				class CUP_B_M2A3Bradley_USA_D               {cost = 4500;	requirements[]={};	};	// "Bradley"
+				class CUP_B_M1A1SA_Desert_US_Army			{cost = 5500;	requirements[]={};	};	// "M2A1 Slammer"
 				class CUP_B_M1A2C_Desert_US_Army     	    {cost = 7500;	requirements[]={};	};	// "M2A1 Slammer UP"
-				class CUP_B_M1129_MC_Mk19_Desert			{cost = 3500;	requirements[]={};	};	// "M4 Scorcher" 
-				class CUP_B_M270_HE_USA                     {cost = 16000;	requirements[]={};	};	// "M4 Scorcher"  
+				class CUP_B_M270_HE_USA                     {cost = 18000;	requirements[]={};	};	// "M4 Scorcher"  
 				 
 			};
 			class Aircraft
 			{
-				class CUP_B_MH6J_OBS_USA					{cost = 500;	requirements[]={};	};	// "MH-9 Hummingbird"
-				class CUP_B_UH60M_FFV_US					{cost = 750;	requirements[]={};	};	// "MH-9 Hummingbird"
+				class CUP_B_MH6J_OBS_USA					{cost = 900;	requirements[]={};	};	// "MH-9 Hummingbird"
+				class CUP_B_UH60M_FFV_US					{cost = 1250;	requirements[]={};	};	// "MH-9 Hummingbird"
 				class CUP_B_AH6M_USA                		{cost = 2500;	requirements[]={"A"};	};	// "AH-9 Pawnee"
 				class CUP_B_UH1D_gunship_GER_KSK_Des     	{cost = 2200;	requirements[]={"A"};	};	// "UH-80 Ghost Hawk"
-				class CUP_B_CH47F_USA    					{cost = 500;	requirements[]={"A"};	};	// "CH-67 Huron"
+				class CUP_B_CH47F_USA    					{cost = 700;	requirements[]={"A"};	};	// "CH-67 Huron"
 				class CUP_B_MV22_USMC       				{cost = 1000;	requirements[]={};	};	// "V-44 X Blackfish(Inf)";
 				class CUP_B_MV22_VIV_USMC					{cost = 1000;	requirements[]={};	};	// "V-44 X Blackfish(Vic)";
 				class CUP_B_MV22_USMC_RAMPGUN				{cost = 2000;	requirements[]={};	};	// "V-44 X Blackfish (Armed)"
@@ -115,63 +107,57 @@ class CfgWLRequisitionPresets //EDITED BY COFFEE
 		{
 			class Infantry
 			{
-				class CUP_O_RU_Soldier_Ratnik_BeigeDigital	         {cost = 5;	requirements[]={};	};	// "Rifleman"
-				class CUP_O_RU_Soldier_Crew_M_BeigeDigital 	         {cost = 5;	requirements[]={};	};	// "Crewman"
-				class CUP_O_RU_Pilot_M_EMR 					         {cost = 5;	requirements[]={};	};	// "Pilot"
-				class CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital	     {cost = 25;	requirements[]={};	};	// "Grenadier"
-				class CUP_O_RU_Recon_Medic_Ratnik_BeigeDigital	     {cost = 10;	requirements[]={};	};	// "Combat Life Saver"
-				class CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital		 {cost = 25;	requirements[]={};	};	// "Autorifleman"
-				class CUP_O_RU_Soldier_A_Ratnik_BeigeDigital		 {cost = 15;	requirements[]={};	};	// "Ammo Bearer"
-				class CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital	 {cost = 30;	requirements[]={};	};	// "Marksman"
-				class CUP_O_RU_Soldier_Repair_Ratnik_BeigeDigital	 {cost = 50;	requirements[]={};	};	// "Repair Specialist"
-				class CUP_O_RU_Soldier_MG_M_BeigeDigital			 {cost = 40;	requirements[]={};	};	// "Heavy Gunner"
-				class CUP_O_RU_Soldier_AT_M_BeigeDigital			 {cost = 50;	requirements[]={};	};	// "Rifleman (AT)"
-				class CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital		 {cost = 75;	requirements[]={};	};	// "Viper Rifleman (AT)"
-				class CUP_O_RU_Soldier_HAT_M_BeigeDigital			 {cost = 75;	requirements[]={};	};	// "Missile Specialist (AT)"
-				class CUP_O_RU_Soldier_AA_Ratnik_BeigeDigital		 {cost = 75;	requirements[]={};	};	// "Missile Specialist (AA)"
-				class CUP_O_RU_Soldier_Marksman_M_BeigeDigital		 {cost = 40;	requirements[]={};	};	// "Sharpshooter"
-				class CUP_O_RU_Sniper_KSVK_M_EMR				     {cost = 50;	requirements[]={};	};	// "Sniper"
+				class CUP_O_RU_Soldier_Ratnik_BeigeDigital	         {cost = 50;	requirements[]={};	};	// "Rifleman"
+				class CUP_O_RU_Soldier_Crew_M_BeigeDigital 	         {cost = 50;	requirements[]={};	};	// "Crewman"
+				class CUP_O_RU_Pilot_M_EMR 					         {cost = 50;	requirements[]={};	};	// "Pilot"
+				class CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital	     {cost = 55;	requirements[]={};	};	// "Grenadier"
+				class CUP_O_RU_Recon_Medic_Ratnik_BeigeDigital	     {cost = 50;	requirements[]={};	};	// "Combat Life Saver"
+				class CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital		 {cost = 55;	requirements[]={};	};	// "Autorifleman"
+				class CUP_O_RU_Soldier_A_Ratnik_BeigeDigital		 {cost = 55;	requirements[]={};	};	// "Ammo Bearer"
+				class CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital	 {cost = 50;	requirements[]={};	};	// "Marksman"
+				class CUP_O_RU_Soldier_Repair_Ratnik_BeigeDigital	 {cost = 350;	requirements[]={};	};	// "Repair Specialist"
+				class CUP_O_RU_Soldier_MG_M_BeigeDigital			 {cost = 60;	requirements[]={};	};	// "Heavy Gunner"
+				class CUP_O_RU_Soldier_Marksman_M_BeigeDigital		 {cost = 70;	requirements[]={};	};	// "Sharpshooter"
+				class CUP_O_RU_Sniper_KSVK_M_EMR				     {cost = 70;	requirements[]={};	};	// "Sniper"
 			};
 			class Vehicles
 			{=
-		      { class CUP_O_TT_650_CHDKZ
-				class CUP_O_TT650_CHDKZ                     {cost = 5;	requirements[]={};	};	// "Quad Biketwowheels"
-				class O_Quadbike_01_F						{cost = 5;	requirements[]={};	};	// "Quad Bike"
-				class CUP_O_UAZ_Unarmed_RU					{cost = 20;	requirements[]={};	};	// "Qilin (Unarmed)"
-				class CUP_O_GAZ_Vodnik_Unarmed_RU			{cost = 50;	requirements[]={};	};	// "Ifrit"
-				class CUP_O_Kamaz_RU				        {cost = 50;	requirements[]={};	};	// "Tempest Transport"
+		      { 
+				class O_Quadbike_01_F						{cost = 200;	requirements[]={};	};	// "Quad Bike"
+				class CUP_O_UAZ_Unarmed_RU					{cost = 450;	requirements[]={};	};	// "Qilin (Unarmed)"
+				class CUP_O_GAZ_Vodnik_Unarmed_RU			{cost = 650;	requirements[]={};	};	// "Ifrit"
+				class CUP_O_Kamaz_RU				        {cost = 450;	requirements[]={};	};	// "Tempest Transport"
 				class CUP_O_Kamaz_Refuel_RU					{cost = 1000;	requirements[]={};	};	// "Tempest Fuel"
-				class CUP_O_Volha_SLA					    {cost = 10;	requirements[]={};	};	// "Tempest Medical"
-				class CUP_O_UAZ_MG_RU						{cost = 200;	requirements[]={};	};	// "Qilin (Minigun)"
-				class O_G_Offroad_01_armed_F				{cost = 200;	requirements[]={};	};	// "Offroad (HMG)"
+				class CUP_O_UAZ_MG_RU						{cost = 800;	requirements[]={};	};	// "Qilin (Minigun)"
+				class O_G_Offroad_01_armed_F				{cost = 800;	requirements[]={};	};	// "Offroad (HMG)"
 				class CUP_O_UAZ_METIS_RU			    	{cost = 2000;	requirements[]={};	};	// "Qilin (AT)"
 				class CUP_O_Kamaz_Repair_RU				    {cost = 1800;	requirements[]={};	};	// "Tempest Repair"
 				class CUP_O_Kamaz_Reammo_RU				    {cost = 2000;	requirements[]={};	};	// "Tempest Ammo"
-				class CUP_O_GAZ_Vodnik_BPPU_RU			    {cost = 700;	requirements[]={};	};	// "Ifrit HMG"
-				class CUP_O_BTR80A_DESERT_RU			    {cost = 1800;	requirements[]={};	};	// "MSE-3 Marid"
-				class CUP_O_BTR90_RU					    {cost = 2200;	requirements[]={};	};	// "Ifrit GMG"
+				class CUP_O_GAZ_Vodnik_BPPU_RU			    {cost = 1300;	requirements[]={};	};	// "Ifrit HMG"
+				class CUP_O_BTR80A_DESERT_RU			    {cost = 2400;	requirements[]={};	};	// "MSE-3 Marid"
+				class CUP_O_BTR90_RU					    {cost = 2900;	requirements[]={};	};	// "Ifrit GMG"
 				class CUP_O_BMP2_RU				            {cost = 4000;	requirements[]={};	};	// "BTR-K Kamysh"
-				class CUP_O_2S6M_RU					        {cost = 5000;	requirements[]={};	};	// "ZSU-39 Tigris"
+				class CUP_O_2S6M_RU					        {cost = 5500;	requirements[]={};	};	// "ZSU-39 Tigris"
 				class CUP_O_Ural_ZU23_RU				    {cost = 1500;	requirements[]={};	};	// "ZSU-39 Tigris"
-				class CUP_O_T72_RU						    {cost = 4000;	requirements[]={};	};	// "T-140 Angara"
+				class CUP_O_T72_RU						    {cost = 4800;	requirements[]={};	};	// "T-140 Angara"
 				class CUP_O_T90_RU					        {cost = 7000;	requirements[]={};	};	// "T-140K Angara"
-				class CUP_O_BM21_RU						    {cost = 16000;	requirements[]={};	};	// "2S9 Sochor"
+				class CUP_O_BM21_RU						    {cost = 18000;	requirements[]={};	};	// "2S9 Sochor"
 				
 
 			};
 			class Aircraft
 			{
-				class CUP_O_Mi8_medevac_RU			        {cost = 200;	requirements[]={};	};	// "PO-30 Orca (Unarmed)"
+				class CUP_O_Mi8_medevac_RU			        {cost = 500;	requirements[]={};	};	// "PO-30 Orca (Unarmed)"
 				class CUP_O_UH1H_TKA		            {cost = 500;	requirements[]={};	};	// "PO-30 Orca"
 				class CUP_O_UH1H_gunship_TKA		            {cost = 2500;	requirements[]={"A"};	};	// "PO-30 Orca"
-				class CUP_O_Mi6T_RU				            {cost = 400;	requirements[]={};	};	// "Mi-290 Taru"
-				class CUP_O_Mi6A_RU			                {cost = 400;	requirements[]={};	};	// "Mi-290 Taru (Transport)"
+				class CUP_O_Mi6T_RU				            {cost = 700;	requirements[]={};	};	// "Mi-290 Taru"
+				class CUP_O_Mi6A_RU			                {cost = 700;	requirements[]={};	};	// "Mi-290 Taru (Transport)"
 				class CUP_O_Mi8_RU 		                    {cost = 1500;	requirements[]={"A"};	};	// "Mi-290 Taru (Medical)"
-				class CUP_O_Mi24_V_Dynamic_RU 	            {cost = 4200;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
-				class CUP_O_Ka52_RU             	        {cost = 8000;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
-				class CUP_O_Ka50_DL_RU             	        {cost = 11000;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
+				class CUP_O_Mi24_V_Dynamic_RU 	            {cost = 5000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
+				class CUP_O_Ka52_RU             	        {cost = 8500;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
+				class CUP_O_Ka50_DL_RU             	        {cost = 11500;	requirements[]={"A"};	};	// "Y-32 Xi'an (vehicle Transport)"
 				class CUP_O_Su25_Dyn_RU		                {cost = 11000;	requirements[]={"A"};	};	// "To-199 Neophron (CAS)"
-				class CUP_O_L39_TK					        {cost = 2800;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
+				class CUP_O_L39_TK					        {cost = 3000;	requirements[]={"A"};	};	// "F/A-181 Black Wasp II";
 				
 			};
 			class Naval
